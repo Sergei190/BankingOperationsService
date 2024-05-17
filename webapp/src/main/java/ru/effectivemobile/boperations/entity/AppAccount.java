@@ -70,4 +70,5 @@ public class AppAccount implements Account {
         @Column(name = "user_id", nullable = false)
         private UUID id;
     }
+
 }

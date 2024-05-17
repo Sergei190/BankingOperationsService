@@ -6,4 +6,5 @@ public interface ProfilePropertyDeleteRequest {
     UUID getPropertyId();
 
     UUID getUserId();
+
 }

@@ -10,4 +10,5 @@ import java.util.UUID;
 @Getter
 public class AppUserDto implements DomainUser {
     private final UUID id;
+
 }

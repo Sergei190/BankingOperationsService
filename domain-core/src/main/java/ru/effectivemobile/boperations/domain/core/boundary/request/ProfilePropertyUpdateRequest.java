@@ -4,4 +4,5 @@ import java.util.UUID;
 
 public interface ProfilePropertyUpdateRequest<T> extends ProfilePropertyCreateRequest<T> {
     UUID getPropertyId();
+
 }

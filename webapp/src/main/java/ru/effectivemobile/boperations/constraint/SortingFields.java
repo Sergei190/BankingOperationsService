@@ -25,4 +25,5 @@ public @interface SortingFields {
     Class<?>[] groups() default {};
 
     Class<? extends Payload>[] payload() default {};
+
 }

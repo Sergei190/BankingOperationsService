@@ -30,4 +30,5 @@ public interface ProfileSearchRequest extends Paging {
     default boolean hasBirthday() {
         return getBirthday() != null;
     }
+
 }

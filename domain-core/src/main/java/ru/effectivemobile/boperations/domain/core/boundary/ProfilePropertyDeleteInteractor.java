@@ -10,4 +10,5 @@ import ru.effectivemobile.boperations.domain.core.boundary.response.ProfilePrope
  */
 public interface ProfilePropertyDeleteInteractor<T> {
     ProfilePropertyCrudResponse<T> delete(ProfilePropertyDeleteRequest request);
+
 }

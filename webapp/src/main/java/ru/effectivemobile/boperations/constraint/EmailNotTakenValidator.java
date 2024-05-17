@@ -16,4 +16,5 @@ public class EmailNotTakenValidator implements ConstraintValidator<EmailNotTaken
     public boolean isValid(String email, ConstraintValidatorContext constraintValidatorContext) {
         return !emailJpaRepository.existsByValue(email);
     }
+
 }

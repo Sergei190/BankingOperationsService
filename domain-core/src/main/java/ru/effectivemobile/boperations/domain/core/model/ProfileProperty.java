@@ -11,4 +11,5 @@ public interface ProfileProperty<T> extends Timestamps {
     T getValue();
 
     UUID getId();
+
 }

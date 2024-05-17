@@ -29,4 +29,5 @@ public class AppBaseConfiguration implements WebMvcConfigurer {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
+
 }

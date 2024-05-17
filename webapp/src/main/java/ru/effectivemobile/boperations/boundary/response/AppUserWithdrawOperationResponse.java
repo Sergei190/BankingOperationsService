@@ -10,4 +10,5 @@ import java.util.UUID;
 @Getter
 public class AppUserWithdrawOperationResponse implements UserWithdrawOperationResponse {
     private final UUID operationId;
+
 }

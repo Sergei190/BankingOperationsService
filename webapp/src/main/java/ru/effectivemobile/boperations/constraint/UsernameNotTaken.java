@@ -23,4 +23,5 @@ public @interface UsernameNotTaken {
     Class<?>[] groups() default {};
 
     Class<? extends Payload>[] payload() default {};
+
 }

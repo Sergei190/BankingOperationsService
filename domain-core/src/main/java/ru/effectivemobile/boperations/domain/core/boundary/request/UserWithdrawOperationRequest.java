@@ -9,4 +9,5 @@ public interface UserWithdrawOperationRequest {
     UUID getUserIdTo();
 
     BigDecimal getAmount();
+
 }

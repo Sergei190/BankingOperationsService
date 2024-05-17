@@ -20,4 +20,5 @@ public class AppProfileEmailRequest {
     @EmailNotTaken(groups = BusinessLogicCheckGroup.class)
     @Schema(format = "email")
     private String value;
+
 }

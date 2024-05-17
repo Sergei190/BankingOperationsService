@@ -8,4 +8,5 @@ import ru.effectivemobile.boperations.domain.core.boundary.response.LoginRespons
  */
 public interface LoginInteractor {
     LoginResponse login(LoginRequest request);
+
 }

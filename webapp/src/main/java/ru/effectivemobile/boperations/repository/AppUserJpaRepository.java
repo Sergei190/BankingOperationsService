@@ -12,4 +12,5 @@ public interface AppUserJpaRepository extends CrudRepository<AppUser, UUID> {
     boolean existsByUsername(String username);
 
     Optional<AppUser> findByUsername(String username);
+
 }

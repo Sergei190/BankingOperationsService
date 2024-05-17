@@ -29,4 +29,5 @@ public class AppUserWithdrawOperationRequest implements UserWithdrawOperationReq
     @Positive
     @Schema(requiredMode = RequiredMode.REQUIRED)
     private BigDecimal amount;
+
 }

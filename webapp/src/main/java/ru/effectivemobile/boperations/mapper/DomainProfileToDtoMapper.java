@@ -11,4 +11,5 @@ public interface DomainProfileToDtoMapper {
     AppProfileDto toProfileDto(DomainProfile profile);
 
     AppProfilePropertyDto<String> toPropertyStringDto(ProfileProperty<String> property);
+
 }

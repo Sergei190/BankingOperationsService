@@ -15,4 +15,5 @@ public interface Account extends DomainUserable {
     BigDecimal getBalance();
 
     BigDecimal getFirstTopupAmount();
+
 }

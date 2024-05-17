@@ -56,4 +56,5 @@ public class AppCreateUserInteractor implements CreateUserInteractor {
 
         return new AppCreateUserResponse(user);
     }
+
 }

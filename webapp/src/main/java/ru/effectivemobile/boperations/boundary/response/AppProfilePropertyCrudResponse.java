@@ -10,4 +10,5 @@ import ru.effectivemobile.boperations.domain.core.model.ProfileProperty;
 public class AppProfilePropertyCrudResponse<T> implements ProfilePropertyCrudResponse<T> {
 
     private final ProfileProperty<T> property;
+
 }

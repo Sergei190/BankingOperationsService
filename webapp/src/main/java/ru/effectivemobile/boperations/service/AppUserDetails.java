@@ -67,4 +67,5 @@ public class AppUserDetails implements UserDetails, DomainUser {
     public static class AppGrantedAuthority implements GrantedAuthority {
         private final String authority;
     }
+
 }

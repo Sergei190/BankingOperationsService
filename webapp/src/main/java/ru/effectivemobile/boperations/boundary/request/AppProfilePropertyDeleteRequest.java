@@ -12,4 +12,5 @@ public class AppProfilePropertyDeleteRequest implements ProfilePropertyDeleteReq
     private final UUID userId;
 
     private final UUID propertyId;
+
 }

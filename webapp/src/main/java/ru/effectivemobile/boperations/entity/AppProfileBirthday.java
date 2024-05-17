@@ -48,4 +48,5 @@ public class AppProfileBirthday implements ProfileProperty<Instant> {
         this.value = value;
         this.profile = profile;
     }
+
 }

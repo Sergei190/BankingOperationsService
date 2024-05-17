@@ -10,4 +10,5 @@ import ru.effectivemobile.boperations.domain.core.boundary.response.ProfilePrope
  */
 public interface ProfilePropertyCreateInteractor<T> {
     ProfilePropertyCrudResponse<T> create(ProfilePropertyCreateRequest<T> request);
+
 }

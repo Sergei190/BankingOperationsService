@@ -64,4 +64,5 @@ public class AppProfileEmailCrudInteractor implements ProfilePropertyCreateInter
         return emailJpaRepository.findByIdAndProfile_Id(propertyId, userId)
                 .orElseThrow(() -> new BoperationsDomainException("Property not found by id"));
     }
+
 }

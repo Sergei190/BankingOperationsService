@@ -90,4 +90,5 @@ public class AppProfile implements DomainProfile {
         @Column(name = "id", nullable = false, insertable = false, updatable = false)
         private UUID id;
     }
+
 }

@@ -17,4 +17,5 @@ public class ParallelWithdraw implements Callable<UserWithdrawOperationResponse>
         System.out.printf("Withdraw: Thread #%d amount %f%n", Thread.currentThread().getId(), request.getAmount());
         return interactor.withdraw(request);
     }
+
 }

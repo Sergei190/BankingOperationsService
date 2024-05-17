@@ -17,4 +17,5 @@ public interface CreateUserRequest {
     Instant getBirthday();
 
     BigDecimal getStartBalance();
+
 }

@@ -19,5 +19,4 @@ import java.lang.annotation.Target;
 @ActiveProfiles("test")
 @Import(TestBoperationsApplication.class)
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
-public @interface DataJpaTestDockerized {
-}
+public @interface DataJpaTestDockerized {}

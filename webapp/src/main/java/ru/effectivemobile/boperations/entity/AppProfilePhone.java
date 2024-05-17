@@ -63,4 +63,5 @@ public class AppProfilePhone implements ProfileProperty<String> {
     public int hashCode() {
         return Objects.hash(getValue());
     }
+
 }

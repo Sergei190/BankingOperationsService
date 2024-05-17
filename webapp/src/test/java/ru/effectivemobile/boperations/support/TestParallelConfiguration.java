@@ -16,4 +16,5 @@ public class TestParallelConfiguration {
         taskExecutor.setQueueCapacity(64);
         return taskExecutor;
     }
+
 }

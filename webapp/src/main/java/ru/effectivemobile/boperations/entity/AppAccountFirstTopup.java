@@ -30,4 +30,5 @@ public class AppAccountFirstTopup {
     @OneToOne
     @PrimaryKeyJoinColumn
     private AppAccount account;
+
 }

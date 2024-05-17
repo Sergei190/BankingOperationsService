@@ -36,4 +36,5 @@ public class AppLoginInteractor implements LoginInteractor {
 
         return new AppLoginResponse(user, Set.of(DomainPermission.PERMIT_ALL));
     }
+
 }

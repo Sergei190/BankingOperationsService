@@ -15,4 +15,5 @@ public interface Paging {
     int getLimit();
 
     Set<? extends Sorting> getSorting();
+
 }

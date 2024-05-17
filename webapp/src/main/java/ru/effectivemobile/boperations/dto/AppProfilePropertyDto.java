@@ -22,4 +22,5 @@ public class AppProfilePropertyDto<T> {
         this.value = value;
         this.type = value.getClass().getSimpleName().toUpperCase();
     }
+
 }

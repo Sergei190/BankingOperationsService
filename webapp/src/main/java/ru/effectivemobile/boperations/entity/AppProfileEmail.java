@@ -63,4 +63,5 @@ public class AppProfileEmail implements ProfileProperty<String> {
     public int hashCode() {
         return Objects.hash(getValue());
     }
+
 }

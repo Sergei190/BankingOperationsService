@@ -23,4 +23,5 @@ public class UsernameNotTakenValidator implements ConstraintValidator<UsernameNo
     public boolean isValid(String username, ConstraintValidatorContext constraintValidatorContext) {
         return userJpaRepository.existsByUsername(username) == not;
     }
+
 }

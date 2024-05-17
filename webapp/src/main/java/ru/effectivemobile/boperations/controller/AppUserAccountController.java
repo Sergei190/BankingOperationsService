@@ -35,4 +35,5 @@ public class AppUserAccountController {
     public List<AppUserAccountProjection> listAccounts(@AuthenticationPrincipal AppUserDetails userDetails) {
         return accountJpaRepository.findAllByUser_Id(userDetails.getId(), AppUserAccountProjection.class);
     }
+
 }

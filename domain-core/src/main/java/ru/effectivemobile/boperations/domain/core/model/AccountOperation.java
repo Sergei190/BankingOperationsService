@@ -14,4 +14,5 @@ public interface AccountOperation extends Timestamps {
     BigDecimal getAmount();
 
     AccountOperationType getType();
+
 }

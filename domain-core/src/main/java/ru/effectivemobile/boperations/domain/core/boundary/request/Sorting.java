@@ -21,4 +21,5 @@ public interface Sorting {
      * @return положительное или отрицательное число
      */
     int getAsc();
+
 }

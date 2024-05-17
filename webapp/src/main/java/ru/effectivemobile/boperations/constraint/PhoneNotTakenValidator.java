@@ -16,4 +16,5 @@ public class PhoneNotTakenValidator implements ConstraintValidator<PhoneNotTaken
     public boolean isValid(String phone, ConstraintValidatorContext constraintValidatorContext) {
         return !phoneJpaRepository.existsByValue(phone);
     }
+
 }

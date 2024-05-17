@@ -36,4 +36,5 @@ public interface AppProfileJpaRepository extends JpaRepository<AppProfile, UUID>
     static Specification<AppProfile> emailEquals(String email) {
         return (account, criteria, builder) -> builder.equal(account.get("emails").get("value"), email);
     }
+
 }

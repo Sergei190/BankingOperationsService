@@ -5,4 +5,5 @@ package ru.effectivemobile.boperations.domain.core.boundary;
  */
 public interface InterestOnBalanceInteractor {
     void charge();
+
 }

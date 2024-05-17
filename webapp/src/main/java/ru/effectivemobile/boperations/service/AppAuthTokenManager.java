@@ -84,4 +84,5 @@ public class AppAuthTokenManager {
                 ? rawToken.replace("Bearer ", "")
                 : "";
     }
+
 }

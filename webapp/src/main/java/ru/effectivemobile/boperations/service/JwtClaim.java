@@ -11,4 +11,5 @@ public interface JwtClaim {
      * Разрешения пользователя
      */
     String PEM = "pem";
+
 }

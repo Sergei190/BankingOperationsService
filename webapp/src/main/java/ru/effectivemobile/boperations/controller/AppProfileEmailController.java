@@ -83,4 +83,5 @@ public class AppProfileEmailController {
 
         return mapper.toPropertyStringDto(interactor.delete(deleteRequest).getProperty());
     }
+
 }

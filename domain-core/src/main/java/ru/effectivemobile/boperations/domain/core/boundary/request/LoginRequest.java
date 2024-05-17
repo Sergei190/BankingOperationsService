@@ -4,4 +4,5 @@ public interface LoginRequest {
     String getUsername();
 
     String getPassword();
+
 }

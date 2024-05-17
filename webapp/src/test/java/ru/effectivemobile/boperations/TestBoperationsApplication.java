@@ -32,4 +32,5 @@ public class TestBoperationsApplication {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
+
 }

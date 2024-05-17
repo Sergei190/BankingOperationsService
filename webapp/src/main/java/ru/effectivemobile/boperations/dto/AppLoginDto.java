@@ -11,4 +11,5 @@ public class AppLoginDto {
     private String authorizationToken;
 
     private UUID userId;
+
 }

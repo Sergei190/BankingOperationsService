@@ -30,4 +30,5 @@ public interface AppAccountJpaRepository extends CrudRepository<AppAccount, UUID
      * </p>
      */
     <T> List<T> findAllByUser_Id(UUID userId, Class<T> type);
+
 }

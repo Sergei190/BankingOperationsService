@@ -46,4 +46,5 @@ public class AppUserOperationController {
         request.setUserIdFrom(userDetails.getId());
         return interactor.withdraw(request);
     }
+
 }

@@ -12,4 +12,5 @@ public class AppProfilePropertyCreateRequest<T> implements ProfilePropertyCreate
     private final UUID userId;
 
     private final T value;
+
 }

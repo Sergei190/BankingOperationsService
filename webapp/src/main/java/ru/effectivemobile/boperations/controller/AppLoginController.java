@@ -31,4 +31,5 @@ public class AppLoginController {
         LoginResponse loginResponse = interactor.login(request);
         return new AppLoginDto(tokenManager.create(loginResponse), loginResponse.getUser().getId());
     }
+
 }

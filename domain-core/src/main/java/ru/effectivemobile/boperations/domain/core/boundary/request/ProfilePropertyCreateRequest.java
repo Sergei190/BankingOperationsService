@@ -6,4 +6,5 @@ public interface ProfilePropertyCreateRequest<T> {
     UUID getUserId();
 
     T getValue();
+
 }

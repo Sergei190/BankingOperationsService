@@ -85,4 +85,5 @@ public class AppUserWithdrawSqlOperationParallelTest {
                 .setParameter("userId", userId)
                 .getSingleResult();
     }
+
 }

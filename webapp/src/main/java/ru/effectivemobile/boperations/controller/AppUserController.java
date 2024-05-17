@@ -31,4 +31,5 @@ public class AppUserController {
         DomainUser user = interactor.create(request).getUser();
         return new AppUserDto(user.getId());
     }
+
 }

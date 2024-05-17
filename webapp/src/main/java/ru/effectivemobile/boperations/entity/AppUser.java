@@ -39,4 +39,5 @@ public class AppUser implements DomainUser {
         this.username = username;
         this.password = password;
     }
+
 }

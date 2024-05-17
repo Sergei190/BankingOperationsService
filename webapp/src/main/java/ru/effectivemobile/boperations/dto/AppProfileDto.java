@@ -41,4 +41,5 @@ public class AppProfileDto {
 
     @Schema(hidden = true)
     private Set<AppProfilePropertyDto<String>> emails;
+
 }

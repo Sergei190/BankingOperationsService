@@ -37,4 +37,5 @@ public class AppRestControllerAdvice {
     public AppErrorDto handleAllErrors(Exception ex) {
         return new AppErrorDto(ex.getClass().getName(), "message", ex.getMessage());
     }
+
 }

@@ -18,4 +18,5 @@ public class AppProfilePhoneRequest {
     @Phone
     @PhoneNotTaken(groups = BusinessLogicCheckGroup.class)
     private String value;
+
 }

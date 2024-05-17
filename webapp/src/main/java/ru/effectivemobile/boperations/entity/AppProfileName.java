@@ -49,4 +49,5 @@ public class AppProfileName implements ProfileProperty<String> {
         this.value = value;
         this.profile = profile;
     }
+
 }

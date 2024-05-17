@@ -14,4 +14,5 @@ public interface AppProfileEmailJpaRepository extends CrudRepository<AppProfileE
     Optional<AppProfileEmail> findByIdAndProfile_Id(UUID id, UUID profileId);
 
     int countByProfile_Id(UUID profile_id);
+
 }

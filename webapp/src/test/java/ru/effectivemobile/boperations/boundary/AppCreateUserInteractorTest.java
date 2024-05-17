@@ -94,4 +94,5 @@ class AppCreateUserInteractorTest {
         assertThat(appAccount.getFirstTopup().getAmount())
                 .usingComparator(BigDecimal::compareTo).isEqualTo(request.getStartBalance());
     }
+
 }

@@ -12,9 +12,9 @@ spring:
   main:
     banner-mode: off
   datasource:
-    url: jdbc:postgresql://localhost:15444/boperations
-    username: boperations
-    password: pwd123456!
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Ser19052001
     hikari:
       schema: boperations
       maximum-pool-size: 8

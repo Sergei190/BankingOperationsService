@@ -8,4 +8,5 @@ import ru.effectivemobile.boperations.domain.core.boundary.response.CreateUserRe
  */
 public interface CreateUserInteractor {
     CreateUserResponse create(CreateUserRequest request);
+
 }

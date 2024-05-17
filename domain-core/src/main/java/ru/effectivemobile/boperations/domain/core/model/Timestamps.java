@@ -6,4 +6,5 @@ public interface Timestamps {
     Instant getCreatedAt();
 
     Instant getUpdatedAt();
+
 }

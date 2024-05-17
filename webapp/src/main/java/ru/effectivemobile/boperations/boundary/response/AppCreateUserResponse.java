@@ -9,4 +9,5 @@ import ru.effectivemobile.boperations.domain.core.model.DomainUser;
 @Getter
 public class AppCreateUserResponse implements CreateUserResponse {
     DomainUser user;
+
 }

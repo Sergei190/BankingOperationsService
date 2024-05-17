@@ -51,4 +51,5 @@ public class AppProfileSearchInteractor implements ProfileSearchInteractor {
 
         return profiles.map(profile -> (DomainProfile) profile);
     }
+
 }

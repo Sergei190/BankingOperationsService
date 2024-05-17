@@ -8,4 +8,5 @@ public class BoperationsApplication {
     public static void main(String[] args) {
         SpringApplication.run(BoperationsApplication.class, args);
     }
+
 }

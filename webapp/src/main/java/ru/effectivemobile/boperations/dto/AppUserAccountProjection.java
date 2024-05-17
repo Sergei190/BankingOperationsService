@@ -13,4 +13,5 @@ public interface AppUserAccountProjection {
     BigDecimal getBalance();
 
     UUID getId();
+
 }

@@ -19,4 +19,5 @@ public interface DomainProfile extends DomainUserable {
     Set<? extends ProfileProperty<String>> getEmails();
 
     Instant getCreatedAt();
+
 }

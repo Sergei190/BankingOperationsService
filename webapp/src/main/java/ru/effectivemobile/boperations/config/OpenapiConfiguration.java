@@ -37,4 +37,5 @@ public class OpenapiConfiguration {
                 .authorizeHttpRequests(customizer -> customizer.anyRequest().permitAll())
                 .build();
     }
+
 }

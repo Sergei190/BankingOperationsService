@@ -92,4 +92,5 @@ public class AppAccountOperation implements AccountOperation {
             return Objects.hash(getOperationId(), getAccountId());
         }
     }
+
 }

@@ -35,4 +35,5 @@ public class AppAccountBalance {
     @OneToOne
     @PrimaryKeyJoinColumn
     private AppAccount account;
+
 }

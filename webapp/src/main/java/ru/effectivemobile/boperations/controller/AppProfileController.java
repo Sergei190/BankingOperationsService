@@ -59,4 +59,5 @@ public class AppProfileController {
         @Override
         List<AppProfileDto> getContent();
     }
+
 }

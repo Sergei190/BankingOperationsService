@@ -63,4 +63,5 @@ public class AppProfileSearchRequest implements ProfileSearchRequest {
                 .map(HashSet::new)
                 .orElse(null);
     }
+
 }

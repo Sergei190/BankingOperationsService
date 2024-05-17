@@ -16,4 +16,5 @@ public class AppErrorDto {
     private String field;
 
     private String message;
+
 }

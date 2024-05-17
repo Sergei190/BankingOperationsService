@@ -64,4 +64,5 @@ public class AppProfilePhoneCrudInteractor implements ProfilePropertyCreateInter
         return phoneJpaRepository.findByIdAndProfile_Id(propertyId, userId)
                 .orElseThrow(() -> new BoperationsDomainException("Property not found by id"));
     }
+
 }

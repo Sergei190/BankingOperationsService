@@ -32,4 +32,5 @@ public class AppAuthHeaderAuthorizationProvider implements AuthenticationProvide
     public boolean supports(Class<?> authentication) {
         return authentication.equals(PreAuthenticatedAuthenticationToken.class);
     }
+
 }

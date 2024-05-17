@@ -6,4 +6,5 @@ import java.util.Set;
 
 public interface LoginResponse extends DomainUserable {
     Set<String> getPermissions();
+
 }

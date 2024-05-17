@@ -14,4 +14,5 @@ public class AppProfilePropertyUpdateRequest<T> implements ProfilePropertyUpdate
     private final UUID propertyId;
 
     private final T value;
+
 }

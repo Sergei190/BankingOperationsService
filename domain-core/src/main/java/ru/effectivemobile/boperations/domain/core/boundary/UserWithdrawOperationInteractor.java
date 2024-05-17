@@ -8,4 +8,5 @@ import ru.effectivemobile.boperations.domain.core.boundary.response.UserWithdraw
  */
 public interface UserWithdrawOperationInteractor {
     UserWithdrawOperationResponse withdraw(UserWithdrawOperationRequest request);
+
 }

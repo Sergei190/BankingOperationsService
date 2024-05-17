@@ -15,4 +15,5 @@ public interface AppProfilePhoneJpaRepository extends CrudRepository<AppProfileP
     Optional<AppProfilePhone> findByIdAndProfile_Id(UUID id, UUID profileId);
 
     int countByProfile_Id(UUID profile_id);
+
 }

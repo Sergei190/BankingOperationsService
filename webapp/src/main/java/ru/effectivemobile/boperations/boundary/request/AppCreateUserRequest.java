@@ -52,4 +52,5 @@ public class AppCreateUserRequest implements CreateUserRequest {
     @Positive
     @Schema(requiredMode = RequiredMode.REQUIRED)
     private BigDecimal startBalance;
+
 }

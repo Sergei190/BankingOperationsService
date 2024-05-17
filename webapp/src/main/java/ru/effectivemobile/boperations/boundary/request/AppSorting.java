@@ -43,4 +43,5 @@ public class AppSorting implements Sorting {
     public int hashCode() {
         return Objects.hash(getField());
     }
+
 }

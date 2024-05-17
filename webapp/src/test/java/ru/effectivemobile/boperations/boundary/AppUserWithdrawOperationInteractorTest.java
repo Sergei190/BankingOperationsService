@@ -145,4 +145,5 @@ class AppUserWithdrawOperationInteractorTest {
                 .setParameter("id", operationId)
                 .getResultList();
     }
+
 }

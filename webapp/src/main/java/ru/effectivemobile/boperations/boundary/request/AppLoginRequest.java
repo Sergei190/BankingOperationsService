@@ -15,4 +15,5 @@ public class AppLoginRequest implements LoginRequest {
 
     @NotEmpty
     private String password;
+
 }

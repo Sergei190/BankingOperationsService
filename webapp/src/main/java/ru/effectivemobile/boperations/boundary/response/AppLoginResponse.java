@@ -13,4 +13,5 @@ public class AppLoginResponse implements LoginResponse {
     private final DomainUser user;
 
     private final Set<String> permissions;
+
 }

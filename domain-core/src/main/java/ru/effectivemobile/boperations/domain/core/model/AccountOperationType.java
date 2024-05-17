@@ -13,4 +13,5 @@ public enum AccountOperationType {
      * Списание денежных средств
      */
     WITHDRAW;
+
 }
